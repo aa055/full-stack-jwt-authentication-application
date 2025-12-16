@@ -6,18 +6,18 @@ A modern full-stack authentication system with secure user registration, login, 
 
 ## Features
 
-- ✅ User Registration with Name, Date of Birth, Email, Password  
-- ✅ Secure Password Hashing with **bcryptjs**  
-- ✅ JWT-based Access & Refresh Token Authentication  
-- ✅ Auto Token Refresh on Expiry (via Axios Interceptor)  
-- ✅ Protected Routes in React (with Route Guard)  
-- ✅ Persistent Sidebar Layout with Profile and Logout  
-- ✅ Clean, responsive UI with React hooks  
-- ✅ Auto Logout if refresh token is invalid or expired  
+- User Registration with Name, Date of Birth, Email, Password  
+- Secure Password Hashing with **bcryptjs**  
+- JWT-based Access & Refresh Token Authentication  
+- Auto Token Refresh on Expiry (via Axios Interceptor)  
+- Protected Routes in React (with Route Guard)  
+- Persistent Sidebar Layout with Profile and Logout  
+- Clean, responsive UI with React hooks  
+- Auto Logout if refresh token is invalid or expired  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React (Vite)
@@ -37,7 +37,7 @@ A modern full-stack authentication system with secure user registration, login, 
 
 ## Folder Structure
 
-### 🔧 Backend (Node.js)
+### Backend (Node.js)
 /backend
 /models
 User.js
@@ -49,7 +49,7 @@ authMiddleware.js
 server.js
 .env
 
-### 🌐 Frontend (React)
+### Frontend (React)
 /frontend
 /components
 Layout.jsx
