@@ -1,10 +1,10 @@
-# 🔐 Full-Stack JWT Auth App (React + Node.js + MongoDB)
+# Full-Stack JWT Auth App (React + Node.js + MongoDB)
 
 A modern full-stack authentication system with secure user registration, login, access control using **JWT tokens**, and protected routes. Built using **React**, **Express**, **MongoDB**, and **Axios**, with **token refresh** logic for seamless UX.
 
 ---
 
-## 📌 Features
+## Features
 
 - ✅ User Registration with Name, Date of Birth, Email, Password  
 - ✅ Secure Password Hashing with **bcryptjs**  
@@ -35,7 +35,7 @@ A modern full-stack authentication system with secure user registration, login, 
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ### 🔧 Backend (Node.js)
 /backend
@@ -67,7 +67,7 @@ main.jsx
 
 ---
 
-## 🧑‍💻 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -108,13 +108,13 @@ Frontend: http://localhost:3000
 Backend: http://localhost:5000
 
 
-## 🔒 Token Handling Logic
+## Token Handling Logic
 - Access tokens expire quickly (e.g. 1 minute)
 - Refresh tokens are stored in DB per user
 - Axios interceptor auto-refreshes tokens on 401 Unauthorized
 - Refresh failure logs out the user and redirects to login
 
-## 🧪 Testing
+## Testing
 To test:
 - Login
 - Wait for the access token to expire (e.g. 1 min)
